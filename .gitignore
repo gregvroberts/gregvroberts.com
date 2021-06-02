@@ -36,3 +36,25 @@ _testmain.go
 
 # MAC Hidden files
 .DS_Store
+
+# Other
+node_modules/
+bower_components/
+.tmp
+.sass-cache
+builds/**/images/*
+*.ogg
+
+
+#*.png
+#*.jpeg
+
+# security / ssl
+*.pem
+*.xxjson
+
+# Anything under a tmp folder
+**/tmp/*
+
+# Don't include our binary
+gregvroberts.com.exe
