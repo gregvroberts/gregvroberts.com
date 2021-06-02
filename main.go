@@ -6,11 +6,12 @@ import (
 )
 
 /**
- * @Description:
+ * @Description: handles requests
  * @param w
  * @param r
  */
 func handlerFunc(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "text/html") // set the header content
 	fmt.Fprint(w, "<h1>Welcome to my awesome site!</h1>")
 }
 
